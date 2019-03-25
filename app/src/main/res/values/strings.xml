@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Star Wars Name</string>
+    <string name="get_your_star_wars_name">Get your Star Wars name!</string>
+    <string name="ranik_cooc">Ranik Cooc</string>
+    <string name="your_star_wars_name">Your Star Wars Name</string>
+    <string name="give_me_a_new_string_app_name">Give me a new @string/app_name</string>
+    <string name="give_me_a_new_name" />
+    <string name="give_me_a_string_give_me_a_new_name">Give me a @string/give_me_a_new_name</string>
+    <string name="give_me_a_star_wars_name">Give me a Star Wars name</string>
+</resources>

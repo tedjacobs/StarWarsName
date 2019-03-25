@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51b46d"
+    android:id="@+id/relativeLayout"
+    tools:context=".StarWarsNameActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="17dp"
+        android:background="#06B90F"
+        android:gravity="center"
+        android:text="@string/your_star_wars_name"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/ranik_cooc"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/nameButton"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/white"
+        android:text="@string/give_me_a_star_wars_name"
+        android:textSize="18sp" />
+
+</RelativeLayout>
